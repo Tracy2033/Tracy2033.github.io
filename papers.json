@@ -1,0 +1,184 @@
+[
+  {
+    "id": "electricity",
+    "title": "Why is household electricity uptake low in Sub-Saharan Africa?",
+    "citation": "With Moussa P. Blimpo and Agnieszka Postepska · World Development, 133 (2020).",
+    "category": "Peer-Reviewed Publications",
+    "area": "Infrastructure and Development",
+    "summary": "Using harmonized household surveys across more than 30 Sub-Saharan African countries and qualitative fieldwork, we find that demand-side constraints account for more than two-fifths of the electricity access deficit. Income, housing quality, and community infrastructure shape adoption, highlighting the importance of complementary policies alongside grid expansion.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "files/electricity.pdf"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Moussa P. Blimpo, Agnieszka Postepska, and Yanbin Xu"
+  },
+  {
+    "id": "classroom",
+    "title": "Technology in the Classroom and Learning in Secondary Schools",
+    "citation": "With Moussa P. Blimpo, Ousman Gajigo, Solomon Owusu, and Ryoko Tomita · World Bank Policy Research Working Paper No. 9288 (2020).",
+    "category": "Working Papers",
+    "area": "Human Capital and Digital Transformation",
+    "summary": "We evaluate computer-assisted learning in secondary schools in The Gambia using administrative and survey data. The program increased mathematics certification scores by 0.59 standard deviations and the share of students obtaining credit by 15 percentage points, providing evidence on technology-enabled instruction in a low-income setting.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "files/classroom.pdf"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Moussa P. Blimpo, Ousman Gajigo, Solomon Owusu, Ryoko Tomita, and Yanbin Xu"
+  },
+  {
+    "id": "market-opening",
+    "title": "From Market Opening to Innovation: Effective Contestability in Digital Markets",
+    "citation": "Working paper · September 2026.",
+    "category": "Working Papers",
+    "area": "Digital Markets, Regulation, and Innovation",
+    "summary": "When does market opening produce an innovative competitor? A two-period stochastic general-equilibrium model separates the thresholds for rival entry and innovation. In the EU iOS app-distribution calibration, observed access supports entry, but benchmark rival innovation remains unprofitable even at full access. Stronger inherited quality and productivity or greater innovation capacity can bring innovation within reach. Platform R&D and welfare can rise even as platform profits fall.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "files/market-opening.pdf"
+      },
+      {
+        "label": "Supplementary presentation",
+        "url": "https://tracy2033.github.io/From-Market-Opening-to-Innovation/"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "figure": {
+      "path": "assets/market-opening.png",
+      "alt": "Entry and innovation thresholds fall as inherited rival quality and productivity gaps close. At 22.62% gap closure, the innovation threshold reaches observed access of 0.47.",
+      "caption": "Figure 7, September 2026 draft: entry and innovation regimes along the less-disadvantaged rival path. Closing 22.62% of each inherited quality and productivity gap brings the innovation threshold to observed effective access (κ = 0.47). Slightly greater gap closure supports positive rival innovation. Source: paper, p. 44 ."
+    },
+    "authors": "Tracy Xu"
+  },
+  {
+    "id": "contestability",
+    "title": "Beyond Market Concentration: Measuring Contestability in Digital Markets",
+    "citation": "With Zhiyang Cheng and Amr Yakout · Working paper, July 2026.",
+    "category": "Working Papers",
+    "area": "Digital Markets, Regulation, and Innovation",
+    "summary": "We measure competitive opportunity across four channels: user mobility, rival access and distribution, platform neutrality, and access to data, interoperability, and infrastructure. Distinguishing formal legal protections from opportunities realized in practice, the framework covers nine jurisdictions and pilot applications to search and mobile app distribution. The results reveal gaps between legal opening and effective challenge, with different barriers across markets.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "files/contestability.pdf"
+      },
+      {
+        "label": "Supplementary presentation",
+        "url": "https://zycheng114514.github.io/contestability-appendix/index.html"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "figure": {
+      "path": "assets/contestability.png",
+      "alt": "Figure: De jure contestability across jurisdictions",
+      "caption": "Figure: De jure contestability across jurisdictions"
+    },
+    "authors": "Zhiyang Cheng, Tracy Xu, and Amr Yakout"
+  },
+  {
+    "id": "dma-review",
+    "title": "Comments on the First Review of the Digital Markets Act",
+    "citation": "Yale Tobin Center for Economic Policy · Policy research, 2026.",
+    "category": "Policy Research and Reports",
+    "area": "Digital Markets, Regulation, and Innovation",
+    "summary": "An assessment of early DMA implementation, focusing on contestability, compliance, and innovation incentives. The analysis connects enforcement challenges to market access, entry conditions, and the distribution of platform rents.",
+    "links": [
+      {
+        "label": "Report (PDF)",
+        "url": "files/dma-review.pdf"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Fiona Scott Morton, Alissa Cooper, Jacques Crémer, Amelia Fletcher, Paul Heidhues, Giorgio Monti, Rupprecht Podszun, Alexandre de Streel, and Tracy Xu"
+  },
+  {
+    "id": "google-search",
+    "title": "Designing the Technical Committee for the United States v. Google Search Antitrust Remedy: A Blueprint for Effective Implementation",
+    "citation": "Knight–Georgetown Institute · Policy report, April 2026.",
+    "category": "Policy Research and Reports",
+    "area": "Digital Markets, Regulation, and Innovation",
+    "summary": "This report proposes an institutional design for overseeing remedy implementation in United States v. Google LLC. Drawing on the Microsoft remedy and recent regulatory experience, it sets out technical access, authority, and monitoring procedures to address information asymmetries and support effective enforcement.",
+    "links": [
+      {
+        "label": "Report (PDF)",
+        "url": "files/google-search.pdf"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Contributors: Zander Arnao, Felix Chen, Alissa Cooper, Timothy Cowen, Joseph Jerome, Michael Kraver, Karina Montoya, Tracy Xu, and Sophia Yakhno"
+  },
+  {
+    "id": "migration",
+    "title": "Internal Migration Restrictions, Aggregate Productivity, and Spatial Growth",
+    "citation": "Job-market paper · Submitted · Razin Prize (2025).",
+    "category": "Working Papers",
+    "area": "Mobility and Spatial Growth",
+    "summary": "A dynamic spatial general-equilibrium model quantifies how China’s hukou restrictions shape labor allocation and aggregate productivity. The framework incorporates trade, agglomeration, endogenous amenities, and migration costs by registration status. Counterfactual reforms examine regional inequality and long-run spatial growth.",
+    "links": [
+      {
+        "label": "Paper (PDF)",
+        "url": "files/migration.pdf"
+      }
+    ],
+    "source": "https://yanbinxu.com/research/",
+    "figure": {
+      "path": "assets/migration.png",
+      "alt": "Figure: Who moves and who benefits? Simulated effects of hukou reform after 100 years",
+      "caption": "Figure: Who moves and who benefits? Simulated effects of hukou reform after 100 years"
+    },
+    "authors": "Yanbin Tracy Xu"
+  },
+  {
+    "id": "high-speed-rail",
+    "title": "High-Speed Rail: Impacts on Mobility Costs and Spatial Reallocation",
+    "citation": "Work in progress.",
+    "category": "Work in Progress",
+    "area": "Mobility and Spatial Growth",
+    "summary": "This project extends my spatial framework to study how reductions in transportation costs interact with institutional migration frictions. It examines how high-speed rail changes regional specialization, labor allocation, and productivity—and how those effects depend on the migration regime.",
+    "links": [],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Yanbin (Tracy) Xu",
+    "status_source": "User clarification, 2 November 2026"
+  },
+  {
+    "id": "digital-skills",
+    "title": "Digital Skills and Labor Market Demand in Central Asia",
+    "citation": "Work in progress.",
+    "category": "Work in Progress",
+    "area": "Human Capital and Digital Transformation",
+    "summary": "This project examines how digital competencies relate to employment, wage premia, and skills mismatch in Central Asia, using employer surveys, wage data, and skills assessments.",
+    "links": [],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Yanbin (Tracy) Xu",
+    "status_source": "User clarification, 2 November 2026"
+  },
+  {
+    "id": "ds4ll",
+    "title": "Digital Skills for Lifelong Learning (DS4LL), Kyrgyzstan",
+    "citation": "Work in progress.",
+    "category": "Work in Progress",
+    "area": "Human Capital and Digital Transformation",
+    "summary": "An impact evaluation of digital skills training and competency development across approximately 300 secondary schools in Kyrgyzstan. The project combines student and teacher assessments with implementation data to study learning and institutional capacity.",
+    "links": [],
+    "source": "https://yanbinxu.com/research/",
+    "authors": "Yanbin (Tracy) Xu",
+    "status_source": "User clarification, 2 November 2026"
+  },
+  {
+    "id": "ai-economics",
+    "title": "The Economics of Artificial Intelligence: Market Structure, Innovation, and Welfare",
+    "authors": "Yanbin (Tracy) Xu",
+    "category": "Work in Progress",
+    "area": "Digital Markets, Regulation, and Innovation",
+    "citation": "Research in development.",
+    "summary": "Developing economic frameworks to study how AI market structure, access to key inputs, and firms’ capabilities affect competition, innovation incentives, and welfare.",
+    "links": [],
+    "source": "User-supplied September 2026 CV"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "name": "Yanbin (Tracy) Xu",
+  "role": "Fritz Family Postdoctoral Fellow",
+  "institute": "Knight–Georgetown Institute",
+  "university": "Georgetown University",
+  "education": "PhD in Economics, Georgetown University (2025)",
+  "email": "yx76@georgetown.edu",
+  "bio": "I study how institutional and platform rules shape access to markets, innovation, and the allocation of labor and skills. My research connects competition in digital markets with broader questions about productivity, mobility, and economic development.",
+  "methods": "I combine structural spatial-equilibrium and general-equilibrium models with applied microeconometrics and institutional analysis.",
+  "interests": [
+    "Digital markets, competition, and innovation",
+    "Technology regulation and emerging AI economics",
+    "Spatial economics, migration, and development",
+    "Human capital and digital transformation"
+  ],
+  "ai_note": "I am developing research interests in AI economics, building on my work on digital markets and innovation.",
+  "cv_available": true,
+  "cv_path": "files/Yanbin_Xu_CV.pdf",
+  "scholar": "https://scholar.google.com/citations?user=RSqCPEsAAAAJ&hl=en",
+  "github": "https://github.com/Tracy2033",
+  "teaching_statement": null,
+  "cv_date": "September 2026",
+  "award": "Razin Prize (2025) for my job-market research paper",
+  "appointment_dates": "2025–Present",
+  "education_history": [
+    {
+      "degree": "Ph.D. in Economics",
+      "institution": "Georgetown University",
+      "date": "2025"
+    },
+    {
+      "degree": "M.A. in International Development Economics",
+      "institution": "Georgetown University",
+      "date": "2015"
+    },
+    {
+      "degree": "B.A. in International Relations",
+      "institution": "Renmin University of China",
+      "date": "2009"
+    }
+  ],
+  "appointments": [
+    {
+      "role": "Research Consultant",
+      "institution": "World Bank, Education Global Practice",
+      "date": "2021–2023"
+    },
+    {
+      "role": "Research Analyst",
+      "institution": "World Bank, Office of the Chief Economist",
+      "date": "2016–2019"
+    },
+    {
+      "role": "Research Consultant",
+      "institution": "World Bank, Strategic Impact Evaluation Fund",
+      "date": "2014–2015"
+    },
+    {
+      "role": "Data Analyst",
+      "institution": "Management Systems International",
+      "date": "2014–2015"
+    },
+    {
+      "role": "Summer Research Intern",
+      "institution": "Innovations for Poverty Action",
+      "date": "2014"
+    }
+  ],
+  "honors": [
+    {
+      "title": "Razin Prize, Georgetown University — best graduate research paper",
+      "date": "2025"
+    },
+    {
+      "title": "Georgetown University Ph.D. Fellowship",
+      "date": "2019–2025"
+    },
+    {
+      "title": "Georgetown University Merit-Based Scholarship",
+      "date": "2013–2015"
+    }
+  ],
+  "software": "Stata, MATLAB, R, Python, LaTeX",
+  "languages": "Chinese (native), English (professional), French (intermediate)"
+}
