@@ -32,7 +32,8 @@ home=f'''<section class="hero"><div><p class="eyebrow">Economics · Institutions
 render('',home,p['bio'],'home')
 groups=['Peer-Reviewed Publications','Working Papers','Policy Research and Reports','Work in Progress']
 ids=['publications','working-papers','policy','work-in-progress']
-research=heading('Research','How do institutional and platform rules shape market access, innovation, and economic opportunity?','Papers & policy research')
+research=heading('Research','','Papers & policy research')
+research+='<div class="research-intro">'+''.join('<p>'+e(paragraph)+'</p>' for paragraph in p['research_intro'])+'</div>'
 research+='<div class="research-layout"><aside class="section-nav" aria-label="Research sections"><p class="eyebrow">Browse by status</p>'+''.join(f'<a href="#{i}">{g}</a>' for i,g in zip(ids,groups))+'</aside><div>'
 for gid,group in zip(ids,groups):
  research+=f'<section class="research-group" id="{gid}"><h2 class="group-heading">{group}</h2>'
@@ -42,9 +43,27 @@ for gid,group in zip(ids,groups):
   research+=f'<p class="meta">{e(q["citation"].split(' · ',1)[1] if q["citation"].startswith('With ') else q["citation"])}</p>'
   if q.get('document_title'):research+=f'<p class="meta">Full report title: {e(q["document_title"])}</p>'
   research+='<div class="paper-links">'+''.join(f'<a href="{link(a["url"],"../")}">{e(a["label"])}</a>' for a in q['links'])+'</div>'
-  research+=f'<details><summary>Research summary</summary><p>{e(q["summary"])}</p></details>'
+  summary=e(q['summary'])
+  for phrase in q.get('summary_emphasis',[]):
+   summary=summary.replace(e(phrase),'<strong>'+e(phrase)+'</strong>')
+  paragraphs=''.join('<p>'+paragraph+'</p>' for paragraph in summary.split('\n\n'))
+  research+='<details'+(' open' if q.get('summary_open') else '')+'><summary>Research summary</summary>'+paragraphs+'</details>'
+  if q.get('highlight'):
+   highlight=q['highlight'];hid=q['id']+'-highlight'
+   research+=f'<details><summary>View research figure</summary><figure class="research-highlight" aria-labelledby="{hid}-title" aria-describedby="{hid}-caption"><h4 id="{hid}-title">{e(highlight["title"])}</h4>'
+   if highlight['type']=='decomposition':
+    research+='<div class="decomposition-scale" aria-hidden="true"><span>0%</span><span>100%</span></div><ul class="decomposition-bars">'
+    for label,value in highlight['values']:
+     research+=f'<li><div class="bar-label"><span>{e(label)}</span><strong>{value}%</strong></div><div class="bar-track" aria-hidden="true"><span style="width:{value}%"></span></div></li>'
+    research+='</ul>'
+   else:
+    research+='<div class="outcome-panels">'
+    for value,unit,label in highlight['values']:
+     research+=f'<div class="outcome-panel"><p class="outcome-value">{e(value)}<span>{e(unit)}</span></p><p class="outcome-label">{e(label)}</p></div>'
+    research+='</div>'
+   research+=f'<figcaption id="{hid}-caption">{e(highlight["caption"])}</figcaption></figure></details>'
   if q.get('figure'):
-   f=q['figure'];research+=f'<details><summary>View research figure</summary><figure><img loading="lazy" src="../{e(f["path"])}" alt="{e(f["alt"])}"><figcaption>{e(f["caption"])}</figcaption></figure></details>'
+   f=q['figure'];caption=(e(f['caption_intro'])+'<br><br>' if f.get('caption_intro') else '')+e(f['caption']);research+=f'<details><summary>View research figure</summary><figure><img loading="lazy" src="../{e(f["path"])}" alt="{e(f["alt"])}"><figcaption>{caption}</figcaption></figure></details>'
   research+='</article>'
  research+='</section>'
 research+='</div></div>';render('research',research,'Publications, working papers, policy reports, and research in progress by Yanbin (Tracy) Xu.')

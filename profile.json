@@ -81,5 +81,9 @@
     }
   ],
   "software": "Stata, MATLAB, R, Python, LaTeX",
-  "languages": "Chinese (native), English (professional), French (intermediate)"
+  "languages": "Chinese (native), English (professional), French (intermediate)",
+  "research_intro": [
+    "My research examines how institutional and market frictions shape productivity, innovation, and the allocation of economic opportunities. My work combines structural and general-equilibrium modeling with quantitative policy analysis, spanning spatial economics, digital competition, and technological change.",
+    "Building on these foundations, I am developing a research agenda in the economics of artificial intelligence, focusing on market structure and innovation, international trade and economic development, and the implications of technological change for labor markets and human capital."
+  ]
 }

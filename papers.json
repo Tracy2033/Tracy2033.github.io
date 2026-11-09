@@ -5,7 +5,7 @@
     "citation": "With Moussa P. Blimpo and Agnieszka Postepska · World Development, 133 (2020).",
     "category": "Peer-Reviewed Publications",
     "area": "Infrastructure and Development",
-    "summary": "Using harmonized household surveys across more than 30 Sub-Saharan African countries and qualitative fieldwork, we find that demand-side constraints account for more than two-fifths of the electricity access deficit. Income, housing quality, and community infrastructure shape adoption, highlighting the importance of complementary policies alongside grid expansion.",
+    "summary": "Expanding electricity infrastructure does not guarantee that households will connect.\n\nCombining household and community surveys from more than 30 Sub-Saharan African countries with qualitative fieldwork, we decompose the electricity-access deficit into supply- and demand-side constraints. Demand-side factors account for approximately 41% of the deficit overall, with particularly large contributions in urban areas. Beyond income levels, income regularity, housing quality, and complementary community infrastructure are important predictors of electricity uptake.\n\nThese findings suggest that expanding the grid alone may not achieve universal access. Electrification policies must also address household financing constraints, payment flexibility, and opportunities to use electricity productively.",
     "links": [
       {
         "label": "Paper (PDF)",
@@ -13,7 +13,30 @@
       }
     ],
     "source": "https://yanbinxu.com/research/",
-    "authors": "Moussa P. Blimpo, Agnieszka Postepska, and Yanbin Xu"
+    "authors": "Moussa P. Blimpo, Agnieszka Postepska, and Yanbin Xu",
+    "summary_emphasis": [
+      "Expanding electricity infrastructure does not guarantee that households will connect."
+    ],
+    "summary_open": true,
+    "highlight": {
+      "type": "decomposition",
+      "title": "Demand-side share of the electricity-access deficit",
+      "values": [
+        [
+          "All areas",
+          41
+        ],
+        [
+          "Urban",
+          78
+        ],
+        [
+          "Rural",
+          35
+        ]
+      ],
+      "caption": "Source: Table 2. Rounded shares from the statistical decomposition of the electricity-access deficit: 41% in all areas, 78% in urban areas, and 35% in rural areas. These are shares attributed to demand-side constraints, not household connection rates or causal policy effects."
+    }
   },
   {
     "id": "classroom",
@@ -21,7 +44,7 @@
     "citation": "With Moussa P. Blimpo, Ousman Gajigo, Solomon Owusu, and Ryoko Tomita · World Bank Policy Research Working Paper No. 9288 (2020).",
     "category": "Working Papers",
     "area": "Human Capital and Digital Transformation",
-    "summary": "We evaluate computer-assisted learning in secondary schools in The Gambia using administrative and survey data. The program increased mathematics certification scores by 0.59 standard deviations and the share of students obtaining credit by 15 percentage points, providing evidence on technology-enabled instruction in a low-income setting.",
+    "summary": "Can technology-assisted instruction improve learning outcomes in resource-constrained schools?\n\nWe evaluate a computer-assisted mathematics and science education program in The Gambia using administrative and survey data and a quasi-experimental design with matched comparison groups. Estimates from the national secondary-school certification examination indicate a 0.59-standard-deviation improvement in mathematics scores and a 15-percentage-point increase in the share of students achieving satisfactory grades in both mathematics and English—a requirement for university admission.\n\nThe gains are concentrated among students with stronger baseline academic performance, highlighting both the potential of technology-assisted instruction and the importance of ensuring that educational innovations benefit students across the achievement distribution.",
     "links": [
       {
         "label": "Paper (PDF)",
@@ -29,7 +52,28 @@
       }
     ],
     "source": "https://yanbinxu.com/research/",
-    "authors": "Moussa P. Blimpo, Ousman Gajigo, Solomon Owusu, Ryoko Tomita, and Yanbin Xu"
+    "authors": "Moussa P. Blimpo, Ousman Gajigo, Solomon Owusu, Ryoko Tomita, and Yanbin Xu",
+    "summary_emphasis": [
+      "Can technology-assisted instruction improve learning outcomes in resource-constrained schools?"
+    ],
+    "summary_open": true,
+    "highlight": {
+      "type": "outcomes",
+      "title": "Estimated examination outcomes",
+      "values": [
+        [
+          "+0.59",
+          "standard deviations",
+          "Mathematics examination scores"
+        ],
+        [
+          "+15",
+          "percentage points",
+          "Students achieving satisfactory grades in both mathematics and English"
+        ]
+      ],
+      "caption": "Estimates from a nonrandom, quasi-experimental evaluation with matched comparison groups in The Gambia. Outcomes are measured on the national secondary-school certification examination. Satisfactory grades in both subjects are required for university admission. The panels use different units and do not share a numeric axis."
+    }
   },
   {
     "id": "market-opening",
@@ -37,7 +81,7 @@
     "citation": "Working paper · September 2026.",
     "category": "Working Papers",
     "area": "Digital Markets, Regulation, and Innovation",
-    "summary": "When does market opening produce an innovative competitor? A two-period stochastic general-equilibrium model separates the thresholds for rival entry and innovation. In the EU iOS app-distribution calibration, observed access supports entry, but benchmark rival innovation remains unprofitable even at full access. Stronger inherited quality and productivity or greater innovation capacity can bring innovation within reach. Platform R&D and welfare can rise even as platform profits fall.",
+    "summary": "Opening a digital market can make entry viable without making innovation viable.\n\nWhy can a challenger enter a newly opened digital market yet remain unable to innovate? I develop a two-period stochastic general-equilibrium model that embeds a strategic game between a dominant platform and a potential rival, with endogenous entry and investment in incremental and disruptive innovation. The model distinguishes effective market access from inherited competitive advantages in quality, productivity, and innovation capability, identifying separate thresholds for commercially viable entry and sustained rival innovation.\n\nCalibrated to EU iOS app distribution following the Digital Markets Act, the model shows that observed access supports challenger entry but not innovation. Even full effective access is insufficient to induce rival innovation in the benchmark; stronger inherited capabilities or innovation efficiency can change that outcome. Greater access can also stimulate incumbent innovation despite lower profits, while welfare gains extend beyond the digital sector through downstream production linkages.\n\nThe central implication is that formal market opening, commercial viability, and dynamic contestability are distinct tests of competition policy effectiveness.",
     "links": [
       {
         "label": "Paper (PDF)",
@@ -52,9 +96,15 @@
     "figure": {
       "path": "assets/market-opening.png",
       "alt": "Entry and innovation thresholds fall as inherited rival quality and productivity gaps close. At 22.62% gap closure, the innovation threshold reaches observed access of 0.47.",
-      "caption": "Figure 7, September 2026 draft: entry and innovation regimes along the less-disadvantaged rival path. Closing 22.62% of each inherited quality and productivity gap brings the innovation threshold to observed effective access (κ = 0.47). Slightly greater gap closure supports positive rival innovation. Source: paper, p. 44 ."
+      "caption": "Figure 7, September 2026 draft: entry and innovation regimes along the less-disadvantaged rival path. Closing 22.62% of each inherited quality and productivity gap brings the innovation threshold to observed effective access (κ = 0.47). Slightly greater gap closure supports positive rival innovation. Source: paper, p. 44 .",
+      "caption_intro": "Market opening can support rival entry before it supports innovation. Closing inherited quality and productivity gaps lowers the effective-access threshold required for rival innovation."
     },
-    "authors": "Tracy Xu"
+    "authors": "Tracy Xu",
+    "summary_emphasis": [
+      "Opening a digital market can make entry viable without making innovation viable.",
+      "formal market opening, commercial viability, and dynamic contestability are distinct tests of competition policy effectiveness."
+    ],
+    "summary_open": true
   },
   {
     "id": "contestability",
@@ -62,7 +112,7 @@
     "citation": "With Zhiyang Cheng and Amr Yakout · Working paper, July 2026.",
     "category": "Working Papers",
     "area": "Digital Markets, Regulation, and Innovation",
-    "summary": "We measure competitive opportunity across four channels: user mobility, rival access and distribution, platform neutrality, and access to data, interoperability, and infrastructure. Distinguishing formal legal protections from opportunities realized in practice, the framework covers nine jurisdictions and pilot applications to search and mobile app distribution. The results reveal gaps between legal opening and effective challenge, with different barriers across markets.",
+    "summary": "Market concentration tells us which firms dominate a market, but not whether their positions can be challenged. This paper develops a multidimensional framework for measuring digital-market contestability as competitive opportunity rather than observed market structure or outcomes. It distinguishes De Jure Contestability, the legal protections supporting competitive challenges, from De Facto Contestability, the extent to which those opportunities operate in practice.\n\nThe framework examines user mobility, rival access and distribution, platform neutrality, and access to data and infrastructure. Its initial implementation includes 144 legal assessments across nine jurisdictions and market-level applications to Google Search, Apple iOS/App Store, and Google Android/Google Play. The analysis reveals substantial differences between formal regulatory protections and realized competitive opportunities, providing a framework for comparing regulatory regimes and evaluating implementation.",
     "links": [
       {
         "label": "Paper (PDF)",
@@ -79,7 +129,12 @@
       "alt": "Figure: De jure contestability across jurisdictions",
       "caption": "Figure: De jure contestability across jurisdictions"
     },
-    "authors": "Zhiyang Cheng, Tracy Xu, and Amr Yakout"
+    "authors": "Zhiyang Cheng, Tracy Xu, and Amr Yakout",
+    "summary_emphasis": [
+      "De Jure Contestability",
+      "De Facto Contestability"
+    ],
+    "summary_open": true
   },
   {
     "id": "dma-review",
@@ -87,7 +142,7 @@
     "citation": "Yale Tobin Center for Economic Policy · Policy research, 2026.",
     "category": "Policy Research and Reports",
     "area": "Digital Markets, Regulation, and Innovation",
-    "summary": "An assessment of early DMA implementation, focusing on contestability, compliance, and innovation incentives. The analysis connects enforcement challenges to market access, entry conditions, and the distribution of platform rents.",
+    "summary": "How can the Digital Markets Act turn formal obligations into effective competitive opportunities? This joint policy submission reviews implementation and enforcement and proposes reforms to compliance reporting, independent benchmarking, and performance indicators. It also examines messaging interoperability and the potential application of the DMA to artificial intelligence. The recommendations focus on making compliance independently assessable and strengthening implementation; they are policy proposals, not estimates of the regulation’s causal effects.",
     "links": [
       {
         "label": "Report (PDF)",
@@ -119,7 +174,7 @@
     "citation": "Job-market paper · Submitted · Razin Prize (2025).",
     "category": "Working Papers",
     "area": "Mobility and Spatial Growth",
-    "summary": "A dynamic spatial general-equilibrium model quantifies how China’s hukou restrictions shape labor allocation and aggregate productivity. The framework incorporates trade, agglomeration, endogenous amenities, and migration costs by registration status. Counterfactual reforms examine regional inequality and long-run spatial growth.",
+    "summary": "How do institutional barriers to migration affect long-run economic growth? I develop a dynamic spatial general-equilibrium model that distinguishes China's hukou-related migration restrictions from conventional geographic mobility costs. The framework incorporates endogenous agglomeration-driven productivity and local amenities shaped by congestion and rent-financed public investment.\n\nCalibrated to Chinese prefecture-level data, the model shows how migration restrictions impede labor reallocation toward more productive regions and weaken long-run productivity growth. Counterfactual simulations suggest that full reform could raise consumption-equivalent welfare by approximately 53% over a century, although the gains vary considerably across regions and reform designs.\n\nThe central contribution is to demonstrate how institutional migration barriers affect not only the current allocation of labor but also the long-run evolution of productivity, public investment, and spatial inequality.",
     "links": [
       {
         "label": "Paper (PDF)",
@@ -132,7 +187,9 @@
       "alt": "Figure: Who moves and who benefits? Simulated effects of hukou reform after 100 years",
       "caption": "Figure: Who moves and who benefits? Simulated effects of hukou reform after 100 years"
     },
-    "authors": "Yanbin Tracy Xu"
+    "authors": "Yanbin Tracy Xu",
+    "summary_emphasis": [],
+    "summary_open": true
   },
   {
     "id": "high-speed-rail",
@@ -164,7 +221,7 @@
     "citation": "Work in progress.",
     "category": "Work in Progress",
     "area": "Human Capital and Digital Transformation",
-    "summary": "An impact evaluation of digital skills training and competency development across approximately 300 secondary schools in Kyrgyzstan. The project combines student and teacher assessments with implementation data to study learning and institutional capacity.",
+    "summary": "An impact evaluation of digital skills training and competency development across approximately 300 secondary schools in Kyrgyzstan. The project combines student and teacher assessments with implementation data to study learning and institutional capacity. The associated World Bank policy research report is pending final institutional approval.",
     "links": [],
     "source": "https://yanbinxu.com/research/",
     "authors": "Yanbin (Tracy) Xu",
